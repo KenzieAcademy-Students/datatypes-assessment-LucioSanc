@@ -29,6 +29,38 @@ h1 {
   text-align: center;
   background: rgb(202, 232, 235);
   margin: 1em auto;
-  padding: 1em;
+  padding: 1em; 
 }
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+  align-items: center;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 0 5rem;
+  
+}
+
 
